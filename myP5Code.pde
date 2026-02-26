@@ -9,8 +9,17 @@ draw = function() {
 
     fill(0, 0, 0);
     textSize(20);
-    text("What kind of band never plays music?", 39, 200);
+    
+
+    if(mousePressed){
+        text("A rubber band", 39, 200);
+    }
+    else{
+        text("What kind of band never plays music?", 39, 200);
+    }
 };
+
+
 
 /*
 Riddle Taken From 
